@@ -1,0 +1,7 @@
+{
+  "todos": [
+    { "id": 1, "text": "Написать тестовое", "isDone":  true },
+    { "id": 1, "text": "Погулять с собакой", "isDone":  false },
+    { "id": 1, "text": "Посмотреть фильм", "isDone":  false }
+  ]
+}
