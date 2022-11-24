@@ -1,7 +1,36 @@
 {
+  "users": [
+    {
+      "email": "1@mail.ru",
+      "password": "$2a$10$7SXTDgfSynbDLj5gPou3IOk7usEO3AV5mD.lIP4dcylHjQBnqstOm",
+      "id": 1
+    },
+    {
+      "email": "2@mail.ru",
+      "password": "$2a$10$l8s396d.L2DsqIp0wyrRBOJr98jxMTBRvcHjXU33kVG0G6Wp5QN5a",
+      "id": 2
+    },
+    {
+      "email": "5@mail.ru",
+      "password": "$2a$10$T9jTbg/S3qYTYhwMPn8VMOekjsSGjVVpaBpQN5Nd8AW2cOCSqrn1m",
+      "id": 3
+    }
+  ],
   "todos": [
-    { "id": 1, "text": "Написать тестовое", "isDone":  true },
-    { "id": 1, "text": "Погулять с собакой", "isDone":  false },
-    { "id": 1, "text": "Посмотреть фильм", "isDone":  false }
+    {
+      "id": 1,
+      "text": "Написать тестовое",
+      "isDone": true
+    },
+    {
+      "id": 1,
+      "text": "Погулять с собакой",
+      "isDone": false
+    },
+    {
+      "id": 1,
+      "text": "Посмотреть фильм",
+      "isDone": false
+    }
   ]
 }
