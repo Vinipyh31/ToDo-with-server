@@ -1,0 +1,5 @@
+{
+    "/todos/:id\\?filter=all": "/todos?userId=:id",
+    "/todos/:id\\?filter=done": "/todos?userId=:id&completed=true",
+    "/todos/:id\\?filter=undone": "/todos?userId=:id&completed=false"
+}

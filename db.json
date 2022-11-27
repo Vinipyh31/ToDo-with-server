@@ -14,23 +14,37 @@
       "email": "5@mail.ru",
       "password": "$2a$10$T9jTbg/S3qYTYhwMPn8VMOekjsSGjVVpaBpQN5Nd8AW2cOCSqrn1m",
       "id": 3
+    },
+    {
+      "email": "8@mail.ru",
+      "password": "$2a$10$W8351uEsmEOmWEKgTeykwu/k25E.r5JHmHaHuK9eTSEjlcrmwLeZm",
+      "id": 4
     }
   ],
   "todos": [
     {
-      "id": 1,
-      "text": "Написать тестовое",
-      "isDone": true
+      "completed": false,
+      "text": "Помыть собаку",
+      "userId": 1,
+      "id": 16
     },
     {
-      "id": 1,
-      "text": "Погулять с собакой",
-      "isDone": false
+      "completed": true,
+      "text": "Сделать тестовое",
+      "userId": 1,
+      "id": 19
     },
     {
-      "id": 1,
-      "text": "Посмотреть фильм",
-      "isDone": false
+      "completed": true,
+      "text": "Поспать",
+      "userId": 2,
+      "id": 20
+    },
+    {
+      "completed": false,
+      "text": "Заняться спортом",
+      "userId": 2,
+      "id": 21
     }
   ]
 }

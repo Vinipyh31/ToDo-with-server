@@ -1,6 +1,14 @@
 
+export type FilterTypes = "All" | "Done" | "Undone"
+
 export interface TodoItemProps {
-    todo: ITodo;
+    todoItem: ITodo;
+}
+
+export interface MyModalProps {
+    active: boolean;
+    setActive: (isActive: boolean) => void;
+    children: JSX.Element;
 }
 
 export interface IRegisterResponse {
@@ -11,9 +19,9 @@ export interface IRegisterResponse {
     }
 }
 
-export interface ITodo  {
-    id: number;
-    title: string;
+export interface ITodo {
+    text: string;
     completed: boolean;
-    user_id: number;
+    userId: number,
+    id: number;
 }

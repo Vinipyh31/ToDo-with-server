@@ -8,6 +8,7 @@ function App() {
 
     useEffect(() => {
         User.setIsAuth(localStorage.getItem('auth') === 'true');
+        User.setUserId(Number(localStorage.getItem('userId')));
     }, [])
 
     return (

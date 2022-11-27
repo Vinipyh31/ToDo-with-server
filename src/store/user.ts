@@ -4,9 +4,15 @@ class User {
 
     token = "";
     isAuth = false;
+    userId = 0;
 
     constructor() {
         makeAutoObservable(this);
+    }
+
+    setUserId(id : number) {
+        this.userId = id;
+        localStorage.setItem('userId', String(id));
     }
 
     setToken(newToken: string) {

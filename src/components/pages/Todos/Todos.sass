@@ -1,0 +1,48 @@
+.todo-page
+    max-width: 600px
+    min-width: 335px
+    margin: 0 auto
+    padding: 0 20px
+
+.control-panel
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin: 20px 0
+
+.todo-list
+    margin-top: 10px
+    display: flex
+    flex-direction: column
+    row-gap: 10px
+
+    h4
+        overflow: hidden
+        text-overflow: ellipsis
+        max-width: 526px
+
+.todo-item
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    border: 1px solid rgba(0, 0, 0, 0.05)
+    border-radius: 5px
+
+    input
+        width: 20px
+        height: 20px
+        margin-left: 20px
+        cursor: pointer
+
+    svg
+        cursor: pointer
+
+.modal
+    display: flex
+    flex-direction: column
+
+    &__input
+        padding: 10px 20px
+        font-size: 22px
+        margin-bottom: 30px

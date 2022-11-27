@@ -1,5 +1,5 @@
-import Todos from "../components/pages/Todos";
-import Login from "../components/pages/Login";
+import Todos from "../components/pages/Todos/Todos";
+import Login from "../components/pages/Login/Login";
 
 export const privateRoutes = [
     { path: "/todos", component: <Todos /> },
