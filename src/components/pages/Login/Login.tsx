@@ -86,7 +86,7 @@ const Login: React.FC = () => {
                     onChange={(e) => {
                         setPasswordInput(e.target.value)
                     }} />
-                <div className='show-pass'><input type="checkbox" onClick={onShowPass} /> Показать пароль</div>
+                <div className='show-pass'><input type="checkbox" onClick={onShowPass} />Show pass</div>
                 <div className='buttons-container'>
                     <input className='btn' type="button" value="Sign up" onClick={onRegister} />
                     <input className='btn' type="submit" value="Sign In" onClick={onSubmit} />
