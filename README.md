@@ -17,10 +17,12 @@ npm i -g json-server
 ```
 
 ## Запуск
-
+Запуск сервера:
 ```
 json-server db.json -m ./node_modules/json-server-auth --port 5000 -r routes.json
-```
+```  
+
+Запуск самого React приложения:
 ```
 npm start
 ```
