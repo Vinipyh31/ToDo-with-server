@@ -22,7 +22,7 @@ class Todo {
     }
 
     async fetchTodos() {
-        const res = await fetch(`http://localhost:5000/todos/${user.userId}?filter=${this.filter.toLowerCase()}`)
+        const res = await fetch(`http://localhost:5000/todos/${user.userId}?filter=${this.filter.toLowerCase()}`) // Дополнительный query-параметр с userId о котором писал в примечании 
         const resJson: ITodo[] = await res.json()
         this.setTodos(resJson)
     }
